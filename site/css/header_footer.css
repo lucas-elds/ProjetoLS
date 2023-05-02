@@ -153,10 +153,6 @@ footer {
   color: #f0db4f;
 }
 
-.fa-ubuntu {
-  color: #dd4814;
-}
-
 /* width: menor que 1024px */
 @media only screen and (max-width: 1024px) {
   nav {
