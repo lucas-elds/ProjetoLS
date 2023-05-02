@@ -7,11 +7,11 @@ function clickMenu() {
   }
 }
 
-function clickEquipe() {
-  let equipe = document.getElementById("equipe");
-  if (equipe.style.display === "block") {
-    equipe.style.display = "none";
+function clickProjeto() {
+  let projeto = document.getElementById("projeto");
+  if (projeto.style.display === "block") {
+    projeto.style.display = "none";
   } else {
-    equipe.style.display = "block";
+    projeto.style.display = "block";
   }
 }
