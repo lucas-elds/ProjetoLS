@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+main {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  margin-top: -0.5rem;
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.tartaruga {
+  background-color: #cfeef3;
+  border: 2px solid #000000;
+  border-radius: 1rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.tartaruga h1{
+  margin-bottom: 1rem;
+}
+
+.tartaruga img {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  border: 4px dotted #000000;
+}
+
+.info-tartaruga {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: flex-start;
+  list-style-type: disc;
+}
