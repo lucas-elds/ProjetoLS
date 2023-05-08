@@ -94,7 +94,7 @@ button {
 
 #sobre-nos h1 {
   color: #000000;
-  text-shadow: 3px 0 white, -3px 0 white, 0 3px white, 0 -3px white, 2px 2px white, -2px -2px white, 2px -2px white, -2px 2px white;
+  text-shadow: 3px 0 #ffffff, -3px 0 #ffffff, 0 3px #ffffff, 0 -3px #ffffff, 2px 2px #ffffff, -2px -2px #ffffff, 2px -2px #ffffff, -2px 2px #ffffff;
   text-align: center;
   padding: 0.5rem;
 }
@@ -157,7 +157,7 @@ button {
   }
 }
 
-/* width: entre 768px e 480px */
+/* width: menor que 768px */
 @media only screen and (max-width: 768px) {
   #sobre-nos ul {
     margin: 2rem;

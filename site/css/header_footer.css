@@ -37,6 +37,10 @@ nav {
   font-size: 2.5rem;
 }
 
+#mobile-menu p {
+  margin-top: 0.2rem;
+}
+
 #mobile-login-icon {
   display: none;
 }
@@ -161,7 +165,7 @@ footer {
   }
 }
 
-/* width: entre 768px e 480px */
+/* width: menor que 768px*/
 @media only screen and (max-width: 768px) {
   nav {
     flex-direction: row;
@@ -220,7 +224,7 @@ footer {
   }
 }
 
-/* width: abaixo de 480px */
+/* width: abaixo de 350px */
 @media only screen and (max-width: 350px) {
   #logo img {
     width: 50px;
@@ -230,11 +234,11 @@ footer {
     font-size: 2rem;
   }
   
-  #mobile-login-icon a{
+  #mobile-login-icon a {
     font-size: 1.5rem;
   }
 
-  #mobile-login-icon p{
+  #mobile-login-icon p {
     font-size: 0.6rem;
   }
 }
