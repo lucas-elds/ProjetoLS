@@ -18,7 +18,7 @@ function adicionarHeader() {
       </div>
 
       <ul id="botoes-menu">
-        <li class="botao-menu"><a href="">HOME<i class="fa-solid fa-house"></i></a></li>
+        <li class="botao-menu"><a href="../index.html">HOME<i class="fa-solid fa-house"></i></a></li>
         <li class="botao-menu"><a href="">COMUNIDADE<i class="fa-solid fa-comment"></i></a></li>
         <li class="botao-menu"><a href="">VOLUNTARIADO<i class="fa-solid fa-hand-holding-hand"></i></a></li>
         <li class="botao-menu"><a href="">DOAÇÕES<i class="fa-solid fa-hand-holding-heart"></i></a></li>
@@ -28,7 +28,7 @@ function adicionarHeader() {
     </nav>
     <section id="mobile-menu">
       <ul id="botoes-menu-mobile">
-        <a href="#como-ajudar">
+        <a href="">
           <li class="botao-menu-mobile">
             <p>HOME</p>
             <i class="fa-solid fa-house"></i>
@@ -64,8 +64,22 @@ const footer = document.querySelector('footer');
 
 function adicionarFooter() {
   return `
-        <button id="btn-projeto" onclick="clickProjeto()">Sobre o projeto <i class="fa-solid fa-list-check"></i></button>
-    <section id="projeto">
+    <div id="footer-logo">
+      <img src="../img/logo.png" alt="Logo">
+      <h1>Casco Vivo</h1>
+    </div>
+    <ul id="redes-sociais">
+      <li id="facebook">
+        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+      </li>
+      <li id="instagram">
+        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+      </li>
+      <li id="twitter">
+        <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+      </li>
+    </ul>
+    <div id="footer-info">
       <p>
         Construído com:
         <i style="color: #e34c26;" class="fa-brands fa-html5"></i>
@@ -85,6 +99,10 @@ function adicionarFooter() {
           <dd><i class="fa-solid fa-chalkboard-user"></i> Docente: Luiz Carlos</dd>
         </li>
       </ul>
+    </div>
+    <button id="btn-equipe" onclick="clickEquipe()">Equipe <i class="fa-solid fa-people-group"></i></button>
+    <section id="projeto">
+      
 
       <p><i class="fa-solid fa-people-group"></i> Equipe:</p>
 
@@ -113,7 +131,7 @@ function adicionarFooter() {
         <li>
           <dt>
             Wilton Padilha
-            ( <i class="fa-solid fa-seedling"></i> / <i class="fa-solid fa-file-code"></i> )
+            ( <i class="fa-solid fa-seedling"></i> )
           </dt>
           <dd><i class="fa-solid fa-address-card"></i> Matrícula: 20221370039</dd>
         </li>
@@ -121,4 +139,5 @@ function adicionarFooter() {
     </section>
     `;
 }
+
 footer.insertAdjacentHTML('beforeend', adicionarFooter());

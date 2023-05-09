@@ -18,30 +18,31 @@
 
 <body>
   <header></header>
-  <main>
+ <main>
     <h1 id="titulo">Tartarugas:</h1>
     <div id="filtro">
       <h2>Filtrar por:</h2>
       <span id="botoes-filtro">
-        <button onclick="clickCR()" id="filtro-cr" class="item-filtro">
+        <button onclick="filtroAmeacaClique('cr')" id="filtro-cr" class="item-filtro">
           <i class="fa-solid fa-triangle-exclamation"></i><b>(CR)</b>
         </button>
 
-        <button onclick="clickEN()" id="filtro-en" class="item-filtro">
+        <button onclick="filtroAmeacaClique('en')" id="filtro-en" class="item-filtro">
           <i class="fa-solid fa-triangle-exclamation"></i><b>(EN)</b>
         </button>
 
-        <button onclick="clickVU()" id="filtro-vu" class="item-filtro">
+        <button onclick="filtroAmeacaClique('vu')" id="filtro-vu" class="item-filtro">
           <i class="fa-solid fa-triangle-exclamation"></i><b>(VU)</b>
         </button>
 
-        <button onclick="clickDD()" id="filtro-dd" class="item-filtro">
+        <button onclick="filtroAmeacaClique('dd')" id="filtro-dd" class="item-filtro">
           <i class="fa-solid fa-triangle-exclamation"></i><b>(DD)</b>
         </button>
       </span>
-      <button onclick="limparFiltros()" id="limpar-filtros">
+      <button onclick="filtroAmeacaClique()" id="limpar-filtros">
         <h3>Limpar filtros</h3>
       </button>
+      <h4 id="quantidade"></h4>
     </div>
     <div id="cards"></div>
   </main>

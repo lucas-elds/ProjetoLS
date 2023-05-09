@@ -77,4 +77,8 @@ main button:hover {
   margin: 1.5rem;
   cursor: pointer;
   }
+
+  main p {
+  font-size: 1.2rem;
+  }
 }
