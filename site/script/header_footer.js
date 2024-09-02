@@ -5,7 +5,7 @@ function adicionarHeader() {
     <nav>
       <button id="mobile-menu-icon" onclick="clickMenu()"><i class="fa-solid fa-bars"></i></button>
       <div id="logo">
-        <a href="/site/index.html">
+        <a href="">
           <img src="../img/logo.png" alt="Logo Casco Vivo">
           <h1 style="padding-left: 5px;">Casco Vivo</h1>
         </a>
@@ -18,7 +18,7 @@ function adicionarHeader() {
       </div>
 
       <ul id="botoes-menu">
-        <li class="botao-menu"><a href="/site/index.html">HOME<i class="fa-solid fa-house"></i></a></li>
+        <li class="botao-menu"><a href="">HOME<i class="fa-solid fa-house"></i></a></li>
         <li class="botao-menu"><a href="">COMUNIDADE<i class="fa-solid fa-comment"></i></a></li>
         <li class="botao-menu"><a href="">VOLUNTARIADO<i class="fa-solid fa-hand-holding-hand"></i></a></li>
         <li class="botao-menu"><a href="">DOAÇÕES<i class="fa-solid fa-hand-holding-heart"></i></a></li>
@@ -28,7 +28,7 @@ function adicionarHeader() {
     </nav>
     <section id="mobile-menu">
       <ul id="botoes-menu-mobile">
-        <a href="/site/index.html">
+        <a href="">
           <li class="botao-menu-mobile">
             <p>HOME</p>
             <i class="fa-solid fa-house"></i>
