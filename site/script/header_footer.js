@@ -1,11 +1,11 @@
-const header = document.querySelector('header');
+const header = document.querySelector("header");
 
 function adicionarHeader() {
   return `
     <nav>
       <button id="mobile-menu-icon" onclick="clickMenu()"><i class="fa-solid fa-bars"></i></button>
       <div id="logo">
-        <a href="">
+        <a href="/site/index.html">
           <img src="../img/logo.png" alt="Logo Casco Vivo">
           <h1 style="padding-left: 5px;">Casco Vivo</h1>
         </a>
@@ -18,7 +18,7 @@ function adicionarHeader() {
       </div>
 
       <ul id="botoes-menu">
-        <li class="botao-menu"><a href="../index.html">HOME<i class="fa-solid fa-house"></i></a></li>
+        <li class="botao-menu"><a href="/site/index.html">HOME<i class="fa-solid fa-house"></i></a></li>
         <li class="botao-menu"><a href="">COMUNIDADE<i class="fa-solid fa-comment"></i></a></li>
         <li class="botao-menu"><a href="">VOLUNTARIADO<i class="fa-solid fa-hand-holding-hand"></i></a></li>
         <li class="botao-menu"><a href="">DOAÇÕES<i class="fa-solid fa-hand-holding-heart"></i></a></li>
@@ -28,7 +28,7 @@ function adicionarHeader() {
     </nav>
     <section id="mobile-menu">
       <ul id="botoes-menu-mobile">
-        <a href="">
+        <a href="/site/index.html">
           <li class="botao-menu-mobile">
             <p>HOME</p>
             <i class="fa-solid fa-house"></i>
@@ -58,9 +58,9 @@ function adicionarHeader() {
     <img id="banner" src="../img/banner.jpg" alt="Banner: Preserve as Tartarugas Marinhas">
     `;
 }
-header.insertAdjacentHTML('beforeend', adicionarHeader());
+header.insertAdjacentHTML("beforeend", adicionarHeader());
 
-const footer = document.querySelector('footer');
+const footer = document.querySelector("footer");
 
 function adicionarFooter() {
   return `
@@ -140,4 +140,4 @@ function adicionarFooter() {
     `;
 }
 
-footer.insertAdjacentHTML('beforeend', adicionarFooter());
+footer.insertAdjacentHTML("beforeend", adicionarFooter());
